@@ -4,11 +4,13 @@
   padding: 0;
   margin: 0;
   border: none;
+  text-decoration: none;
   box-sizing: border-box;
   font-family: "Overpass", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  color: white;
 }
 
 body {
@@ -20,10 +22,60 @@ body {
   position: relative;
 }
 
-.content {
-  background-color: red;
+.content {  
+  background-image: linear-gradient(180deg, hsl(213, 19%, 18%), hsl(210, 12%, 13%));
   height: 400px;
   width: 400px;
+  padding: 25px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.star-icon-div {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-weight: 700;
+}
+
+.text {
+  opacity: 0.6;
+  line-height: 1.5;
+}
+
+.rating-area {
+  display: flex;
+  background-color: blue;
+  justify-content: space-between;
+}
+
+.rating-buttons {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: green;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.submit-button {
+  color: black;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  height: 50px;
+  border-radius: 25px;
 }
 
 .attribution {
@@ -32,3 +84,4 @@ body {
   font-size: 20px;
   color: white;
 }
+

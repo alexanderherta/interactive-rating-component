@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="./style.css">
+  <script src="main.js" defer></script>
   <title>Frontend Mentor | Interactive rating component</title>
   <style>
     .attribution { font-size: 11px; text-align: center; }
@@ -21,11 +22,16 @@
       <p class="text">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
     </div>
     <div class="rating-area">
-      <a href="#" id="rating-button1" class="rating-buttons">1</a>
-      <a href="#" id="rating-button2"  class="rating-buttons">2</a>
-      <a href="#" id="rating-button3"  class="rating-buttons">3</a>
-      <a href="#" id="rating-button4"  class="rating-buttons">4</a>
-      <a href="#" id="rating-button5"  class="rating-buttons">5</a>
+      <input type="radio" name="radio-buttons" id="rating-button1" class="rating-buttons"></input>
+      <label for="rating-button1">1</label>
+      <input type="radio" name="radio-buttons" id="rating-button2"  class="rating-buttons"></input>
+      <label for="rating-button2">2</label>
+      <input type="radio" name="radio-buttons" id="rating-button3"  class="rating-buttons"></input>
+      <label for="rating-button3">3</label>
+      <input type="radio" name="radio-buttons" id="rating-button4"  class="rating-buttons"></input>
+      <label for="rating-button4">4</label>
+      <input type="radio" name="radio-buttons" id="rating-button5"  class="rating-buttons"></input>
+      <label for="rating-button5">5</label>
     </div>
     <button class="submit-button">SUBMIT</button>
   </div>
